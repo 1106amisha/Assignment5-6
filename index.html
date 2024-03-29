@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<h1>Currency Converter</h1>
+	<div id="inputForm">
+		<label for="amount">Amount:</label>
+		<input type="text" id="amount" />
+		<br />
+		<label for="currency">Currency:</label>
+		<select id="currency">
+			<option value="cadToUsd">CAD to USD</option>
+			<option value="usdToCad" selected>USD to CAD</option>
+		</select>
+		<br />
+		<button id="convert">Convert</button>
+	</div>
+	<div id="result"></div>
+	<script src="script.js"></script>
+</body>
+</html>
